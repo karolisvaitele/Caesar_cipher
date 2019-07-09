@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+  </head>
+  <body>
+    <form>
+        <input type='text' name='string' /><br/>
+        <input type='number' name='shift' /><br/>
+        <input type='submit' value='Cipher' /><br/>
+    </form>
+    <div>
+      <% if ciphered != "" %>  
+        <p> Ciphered text: <%= ciphered %> </p>
+      <% end %>
+    </div>
+  </body>
+</html>
